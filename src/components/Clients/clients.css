@@ -1,0 +1,87 @@
+.clients {
+    background-color: #ebeced;
+    width: 100%;
+    height: 750px;
+    margin-top: -30px;
+}
+
+#clients {
+    font-weight: 300;
+    font-size: 43px;
+    padding-top: 70px;
+    color: #262d3d;
+    text-align: center;
+}
+
+.clients-sub {
+    margin-top: 50px;
+    color: #262d3d;
+    text-align: center;
+}
+
+.stars {
+    background-color: #00b67a;
+    color: #ffffff;
+    padding: 0px 4px 2px 4px;
+}
+
+#star {
+    background-color: lavender;
+    color: #ffffff;
+    padding: 0px 4px 2px 4px;
+}
+
+#clients-star {
+    color: #00b67a;
+    font-size: 22px;
+}
+
+
+.clients-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin: 10px 197px;
+}
+
+.clients-item {
+    font-weight: lighter;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 365px;
+    background-color: #ffffff;
+    color: grey;
+    margin-top: 80px;
+}
+
+.clients-quote {
+    font-size: 30px;
+    font-weight: bold;
+    color: blue;
+    margin-bottom: -20px;
+}
+
+.clients-detail {
+    line-height: 1px;
+    position: relative;
+    top: 60px;
+    left: 55px;
+}
+
+.clients-image {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    position: relative;
+    top: 105px;
+}
+
+.clients-name {
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.clients-comp {
+    font-size: 13px;
+    padding-bottom: -100px;
+}

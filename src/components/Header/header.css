@@ -1,0 +1,139 @@
+.header {
+    width: 100%;
+    height: 480px;
+    background-color: #d4d7e4;
+}
+
+.top-three {
+    margin: 0;
+    color: #262d3d;
+    font-size: 45px;
+    font-weight:lighter;
+    position: absolute;
+    top: 80px;
+    left: 150px;
+}
+
+u {
+    padding-bottom: 4px;
+    text-decoration: none;
+    border-bottom: 1px solid #262d3d;
+}
+
+u:hover {
+    border-bottom: 0;
+    cursor: pointer;
+} 
+
+.top-three-text {
+    position: absolute;
+    top: 190px;
+    left: 150px;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #262d3d;
+}
+
+sup {
+    font-size: 22px;
+    padding: 2px;
+}
+
+.talent-button {
+    color: #ffffff;
+    background-color: #00cc83;
+    border: none;
+    border-radius: 3px;
+    font-size: 19px;
+    font-weight: 600;
+    padding: 15px 70px;
+    position: absolute;
+    top: 380px;
+    left: 150px;
+}
+
+.location-div {
+    background: linear-gradient(40deg, transparent 20px, #f6f8fc 0);
+    position: absolute;
+    top: 135px;
+    right: 150px;
+    width: 210px;
+    height: 190px;
+}
+
+.location {
+    text-align: center;
+    width: 170px;
+    height: 80px;
+    padding: 20px 15px;
+}
+
+.header-next {
+    background-color: #f6f8fb;
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand-startup {
+    color: #262d3d;
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    left: 150px;
+    line-height: 25px;
+}
+
+ul.brand-logo {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left:350px;
+    justify-content: center;
+    align-items: center;
+}
+    
+li.logo {
+    display: inline;
+    margin: 40px;
+}
+
+.airbnb {
+    width: 80px;
+    height: 20px;
+    padding-bottom: 30px;
+}
+
+.bridgestone {
+    width: 80px;
+    height: 75px;
+}
+
+.duolingo {
+    width: 80px;
+    height: 23px;
+    padding-bottom: 25px;
+}
+
+.usc {
+    width: 35px;
+    height: 30px;
+    padding-bottom: 20px;
+}
+
+.shopify {
+    width: 130px;
+    height: 40px;
+    padding-bottom: 15px;
+}
+
+.cavaliers {
+    width: 60px;
+    height: 25px;
+    padding-bottom: 19px;
+}
+

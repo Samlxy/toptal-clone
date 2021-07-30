@@ -1,0 +1,23 @@
+.footer {
+    background-color: #0f256e;
+    height: 750px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.footer-header {
+    list-style-type: none;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.header-item {
+    display: inline-block;
+    margin: 100px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}

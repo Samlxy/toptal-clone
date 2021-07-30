@@ -1,0 +1,121 @@
+.teams-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.teams-left {
+    margin-left: 190px;
+}
+
+#teams {
+    font-weight: 350;
+    font-size: 40px;
+    margin-top: 0px;
+    color: #262d3d;
+}
+
+.teams-text {
+    margin: 40px 0px;
+    color: #262d3d;
+}
+
+.teams-category {
+    width: 650px;
+    height: 685px;
+    margin-bottom: 20px;
+}
+
+.teams-item {
+    height: 200px;
+    padding: 30px 30px 60px 0px;
+}
+
+.teams-image {
+    float: left;
+}
+
+.teams-name {
+    font-size: 20px;
+    padding: 30px 20px 20px 0px;
+    clear: left;
+    float: left;
+}
+
+.teams-item-text {
+    clear: left;
+    float: left; 
+    color: #4c515f;
+}
+
+/* Right image column */
+
+.images-right {
+    width: 235px;
+    height: 200px;
+    clip-path: polygon(0 0, 100% 0%, 100% 20%, 100% 80%, 100% 100%, 10% 100%, 0 90%, 0% 20%); /* change - ("10%" 100%, 0 "90%") */
+}
+
+.images-right:hover {
+    filter:brightness(30%);
+    opacity:0.5;
+    cursor:pointer
+}
+
+.teams-div {
+    box-shadow: 0.1em 0.1em 1em lightgray;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    z-index: 1;
+    background-color: #ffffff;
+    cursor: pointer;
+} 
+
+.teams-top {
+    position: absolute;
+    top: 1870px;
+    left: 900px;
+}
+
+.teams-right {
+    position: absolute;
+    top: 1950px;
+    left: 1170px;
+    z-index: 1;
+}
+
+.teams-down {
+    position: absolute;
+    top: 2230px;
+    left: 950px;
+}
+
+#span-name, #span-role {
+    color: #204ecf;
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 0px 0px 20px;
+  }
+  
+#span-role {
+    color: #d4d7e4;
+    margin-top: -20px;
+}
+
+#span-prev {
+    font-size: 13px;
+    padding-left: 18px;
+    color: #d4d7e4;
+    margin-top: -20px;
+}
+
+#span-company {
+    padding-left: 18px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #525864;
+}

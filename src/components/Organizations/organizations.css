@@ -1,0 +1,224 @@
+/* Change Grid style
+.publications-item {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.publications-item:first-child {
+    grid-column: 1 / ;
+    grid-row: 1 / 4;
+}  
+*/
+
+.organizations-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin: 10px 197px;
+    cursor: pointer;
+}
+
+#organizations {
+    font-weight: 350;
+    font-size: 40px;
+    color: #262d3d;
+    margin-top: 90px;
+}
+
+.organizations-text {
+    color: grey;
+    font-weight: 350;
+}
+
+.organizations-item {
+    height: 400px;
+    color: #ffffff;
+    padding-left: 20px;
+}
+
+.organizations-item:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.organizations-image {
+    width: 100%;
+    height: 400px;
+}
+
+.org-name {
+    padding-top: 50px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.org-description {
+    padding-top: 50px;
+    font-size: 21px;
+    font-weight: 100px;
+}
+
+#org-item02, #collab-item02 {
+    background-color: orange;
+    background-image: url('../../images/bridgestone-way.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#org-item03, #collab-item03 {
+    background-color: blue;
+    background-image: url('../../images/cavaliers-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#org-item04, #collab-item04 {
+    background-color: crimson;
+    background-image: url('../../images/csr.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#org-item05 {
+    background-color: greenyellow;
+    background-image: url('../../images/usc-university.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#org-item06 {
+    background-color: sandybrown;
+    background-image: url('../../images/adcrush.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.play-contain {
+    list-style-type: none;
+    position: relative;
+    right: 40px;
+}
+
+.play-item {
+    display: inline-block;
+    margin: 5px;
+    padding-top: 40px;
+    cursor: pointer;
+}
+
+.play-icon {
+    position: relative;
+    top: 15px;
+}
+
+.org-video {
+    font-weight: bold;
+}
+
+/* second-grid */
+
+.collaborations-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    margin: 20px 197px;
+}
+
+#collab-item02 {
+    background-image: url('../../images/motorola.jpg');
+}
+
+#collab-item03 {
+    background-image: url('../../images/salesforce.jpg');
+}
+
+#collab-item04 {
+    background-image: url('../../images/microsoft.jpg');
+}
+
+.read-more {
+    font-weight: bold; 
+}
+
+.read-arrow {
+    width: 26px;
+    height: 2px;
+    background: #ffffff;
+    border: 1px;
+    position: relative;
+    top: 31px;
+    left: 5px;
+}
+
+.greater-arrow {
+    position: relative;
+    top: 3px;
+    left: 21px;
+    font-size: 25px;
+}
+
+.mid-div {
+    text-align: center;
+}
+
+.get-started {
+    font-size: 32px;
+    font-weight: 350;
+    margin-top: 100px;
+    color: #262d3d;
+}
+
+.talent-btn {
+    color: #ffffff;
+    background-color: #00cc83;
+    border: none;
+    border-radius: 3px;
+    font-size: 19px;
+    font-weight: 600;
+    padding: 15px 70px;
+    margin-top: 25px
+}
+
+.cnbc-div {
+    background-color: blue;
+    background-image: url('../../images/cnbc-div.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 450px;
+    margin-top: 100px;
+    color: #ffffff;
+}
+
+ul.cnbc-texts {
+    list-style-type: none;
+    margin-left: 360px;
+    padding-top: 5px;
+}
+
+.left-quote {
+    font-size: 80px;
+    font-weight: bold;
+    color: blue;
+    margin-bottom: -50px;
+}
+
+.cnbc-text {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.cnbc-name {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: -20px;
+}

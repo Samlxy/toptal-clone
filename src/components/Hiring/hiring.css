@@ -1,0 +1,105 @@
+#hiring {
+    font-weight: 350;
+    font-size: 50px;
+    text-align: center;
+    color: #262d3d;
+    margin-top: -50px;
+}
+
+ul.counting-arrow {
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+li.arrow-item {
+    display: inline-block;
+    margin: 50px;
+    position: relative;
+    left: 100px;
+}
+
+.arrow-one {
+    width: 150px;
+    height: 0.1px;
+    background: #d4d7e4;
+    border: 1px;
+}
+
+.arrow-o {
+    font-size: 35px;
+    color: #d4d7e4;
+    font-weight: lighter;
+    position: relative;
+    top: -35px;
+    left: 135px;
+}
+
+#circle-one, .circle-two {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border: 1px solid #204ecf;
+    border-radius: 50%;
+    position: relative;
+    top: -85px;
+    left: 188px;
+}
+
+.circle-two {
+    left: 338px;
+}
+
+.number-one {
+    font-size: 24px;
+    color: #204ecf;
+    position: absolute;
+    top: 14px;
+    left: 23px;
+}
+
+.arrow-two {
+    width: 300px;
+    height: 0.1px;
+    background: #204ecf;
+    border: 1px;
+}
+
+.arrow-t {
+    font-size: 35px;
+    color: #204ecf;;
+    font-weight: lighter;
+    position: relative;
+    top: -35px;
+    left: 285px;
+}
+
+.hiring-text {
+    list-style-type: none;
+    text-align: center;
+    margin-top: -150px;
+}
+
+.hiring-texts {
+    display: inline-block;
+    margin: 30px;
+}
+
+.text-head {
+    font-weight: 600;
+    font-size: 18px;
+    color: #4c515f;
+}
+
+#text-head {
+    position: relative;
+    top: -20px;
+}
+
+.text-body {
+    color: #4c515f;
+}
+
+#text-body {
+    position: relative;
+    top: -20px;
+}

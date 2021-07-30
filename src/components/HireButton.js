@@ -10,5 +10,4 @@ function HireButton(props) {
   );
 }
 
-
 export default HireButton;

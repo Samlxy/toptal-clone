@@ -51,6 +51,7 @@ sup {
     position: absolute;
     top: 380px;
     left: 150px;
+    cursor: pointer;
 }
 
 .location-div {
@@ -136,4 +137,3 @@ li.logo {
     height: 25px;
     padding-bottom: 19px;
 }
-

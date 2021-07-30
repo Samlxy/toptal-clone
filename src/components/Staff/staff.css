@@ -50,4 +50,5 @@ li.demand {
     border-radius: 4px;
     color: #ffffff;
     background-color: #00cc83;
+    cursor: pointer;
 }

@@ -1,5 +1,4 @@
 import React from 'react';
-import Play from '../../images/play-button.svg';
 import Zac from '../../images/zac-carman.jpg';
 import Ryan from '../../images/ryan-walker.jpg';
 import Conor from '../../images/conor-kenney.jpg';
@@ -57,9 +56,6 @@ function Clients() {
                     </div>
                 </div>
             </div>
-
-
-
         </div>
     );
 }

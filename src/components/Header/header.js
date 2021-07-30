@@ -34,8 +34,7 @@ function Header() {
                    <li className='logo'><img src={Usc} className='usc' /></li>
                    <li className='logo'><img src={Shopify} className='shopify' /></li>
                    <li className='logo'><img src={Cavaliers} className='cavaliers' /></li>
-                </ul> 
-               
+                </ul>    
             </div>   
         </header>
         );

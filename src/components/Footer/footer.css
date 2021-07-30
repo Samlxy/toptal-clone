@@ -1,23 +1,117 @@
 .footer {
     background-color: #0f256e;
-    height: 750px;
+    height: 900px;
     color: #ffffff;
-    text-align: center;
 }
 
-.footer-header {
-    list-style-type: none;
-    color: #ffffff;
-    font-weight: 400;
+.header-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    margin: 0px 197px;
 }
 
 .header-item {
-    display: inline-block;
-    margin: 100px;
+    border-bottom: 1px solid  #4d6ea1;
+    padding: 100px 0px 20px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffff;
 }
 
 .footer-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
+    grid-gap: 20px;
+    margin: 0px 197px;
+}
+
+.footer-item {
+    padding-bottom: 100px;
+    font-size: 15px;
+    font-weight: lighter;
+    color: lavender;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 18px;
+    width: 18px;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px 10px;
+    border: 1px solid #4d6ea1;
+    border-radius: 50%;
+  }
+
+.fa-linkedin {
+    background: #0f256e;
+    color: white;
+}
+
+.fa-twitter {
+    background: #0f256e;
+    color: white;
+}
+
+.fa-facebook {
+    background: #0f256e;
+    color: white;
+}
+
+.fa-instagram {
+    background: #0f256e;
+    color: white;
+}
+
+#footer-line {
+    border: 1px;
+    height: 0.1px;
+    background: #4d6ea1;
+    width: 1200px;
+}
+
+#toptal-logo {
+    padding-top: 15px;
+    filter: brightness(0) invert(1);
+}
+
+.line {
+    border-left: 1px solid #4d6ea1;
+    height: 30px;
+    margin-top: 23px;
+    margin-left: 320px;
+}
+
+.world-top {
+    margin-left: 350px;
+    margin-top: -25px;
+}
+
+#footer-sup {
+    font-size: 14px;
+    position: relative;
+    top: 9px;
+}
+
+.copyright {
+    float: right;
+    margin-right: 500px;
+    margin-top: -35px;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+#line-two {
+    height: 20px;
+    margin-left: 1110px;
+    margin-top: -35px;
+}
+
+.privacy {
+    float: right;
+    font-size: 14px;
+    font-weight: lighter;
+    margin-top: -35px;
+    margin-right: 190px;
 }

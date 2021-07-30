@@ -1,17 +1,17 @@
 import React from 'react';
+import Toptal from '../../images/toptal-logo.png';
 import './footer.css';
 
 
 function Footer() {
     return(
         <div className='footer'>
-              <ul className='footer-header'>
-                  <li className='header-item'>Most In-Demand Talent</li>
-                  <li className='header-item'>About</li>
-                  <li className='header-item'>Contact</li>
-                  <li className='header-item'>Social</li>
-                </ul>
-                
+              <div className='header-grid'>
+                  <div className='header-item'>Most In-Demand Talent</div>
+                  <div className='header-item'>About</div>
+                  <div className='header-item'>Contact</div>
+                  <div className='header-item'>Social</div>
+                </div>
             <div className='footer-grid'>
                 <div className='footer-item'>
                     <p>iOS Developers</p>
@@ -42,9 +42,22 @@ function Footer() {
                     <p>FAQ</p>
                 </div>
                 <div className='footer-item'>
+                    <a href="#" class="fa fa-linkedin"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                </div>
+                <div className='footer-item'>
                 </div>
             </div>
-            <hr id='division-line' />
+            <hr id='footer-line' />
+            <img src={Toptal} alt='toptal' className='toptal-logo' id='toptal-logo' />
+            <div className='line'></div>
+            <p className='world-top'>The World's Top Talent, On Demand<sup id='footer-sup'>&reg;</sup></p>
+            <p className='copyright'>Copyright 2010 - 2021 Toptal, LLC</p>
+            <div className='line' id='line-two'></div> 
+            <p className='privacy'>Privacy Policy &nbsp;&nbsp; Website Terms &nbsp;&nbsp; Accessibility</p>
+            
         </div>
     );
 }

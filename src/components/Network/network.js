@@ -10,7 +10,7 @@ function Network() {
         <div className='network'>
             <h2 id='network'>Meet Talent in Our Network</h2>
             <ul className='network-roles'>
-                <li className='roles-item' id='role-item'><u>Developers</u></li>
+                <li className='roles-item' id='role-item'><u id='underline'>Developers</u></li>
                 <li className='roles-item'>Designers</li>
                 <li className='roles-item'>Finance Experts</li>
                 <li className='roles-item'>Project Managers</li>

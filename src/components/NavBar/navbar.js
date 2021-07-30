@@ -22,7 +22,7 @@ function Navbar() {
         <div className={navbar ? 'navbar active' : 'navbar'}>
             <Menu>
             </Menu>
-            <img src={Toptal} className='toptal-logo'/>
+            <img src={Toptal} alt='toptal' className='toptal-logo'/>
             <ul className='left-nav'>
                 <li className='nav-items'><Link to='#top3' scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'start' })} activeClassName='focus'>Top 3%</Link></li>
                 <li className='nav-items'><Link to='#why' scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'start' })} activeClassName='focus'>Why</Link></li>

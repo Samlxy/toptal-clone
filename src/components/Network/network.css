@@ -14,8 +14,9 @@
     list-style-type: none;
 }
 
-u {
+#underline {
     padding-bottom: 15px;
+    text-decoration: none;
     border-bottom: 2px solid blue;
 }
 

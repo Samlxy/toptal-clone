@@ -111,6 +111,7 @@
     font-weight: 550;
     border:1px solid gray;
     background-color: transparent;
+    cursor: pointer;
 }
 
 .tiny-image {
@@ -120,34 +121,3 @@
     bottom: 30px;
     left: 20px;
 }
-
-
-
-
-
-
-
-/*
-.publications-items:first-child {
-
-     grid-template-rows: repeat(3, 50px);
-
-     .publications-item {
-    background-color: aqua;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5em;
-}
-
-
-#more-arr {
-    color: #ffffff;
-}
-
-#more-arr:hover {
-    color: blue;
-}
-
-color: #262d3d;
-*/

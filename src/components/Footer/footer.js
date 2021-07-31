@@ -47,8 +47,6 @@ function Footer() {
                     <button className="fa fa-facebook"></button>
                     <button className="fa fa-instagram"></button>
                 </div>
-                <div className='footer-item'>
-                </div>
             </div>
             <hr id='footer-line' />
             <img src={Toptal} className='toptal-logo' id='toptal-logo' alt='toptal' />

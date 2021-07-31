@@ -1,6 +1,6 @@
 .footer {
     background-color: #0f256e;
-    height: 900px;
+    height: 700px;
     color: #ffffff;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .footer-item {
-    padding-bottom: 100px;
+    padding-bottom: 70px;
     font-size: 15px;
     font-weight: lighter;
     color: lavender;

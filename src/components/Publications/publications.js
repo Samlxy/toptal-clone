@@ -18,8 +18,8 @@ function Publications() {
             <h1 id='publications'>Explore Trending Toptal Publications</h1>
             <div className='publications-grid'>
                 <div className='publications-item'>
-                    <img src={Frontend} id='pub-image' />
-                    <img src={Fimage} className='tiny-image' />
+                    <img src={Frontend} id='pub-image' alt='frontend developer' />
+                    <img src={Fimage} className='tiny-image' alt='frontend developer' />
                     <p className='pub-category'>Engineering &#62; Web Front-end</p>
                     <p id='pub-theme'>The Best React State Management Tools<br />for Enterprise Applications</p>
                     <p className='pub-author'>by <strong>Teimur Gasanov</strong></p>
@@ -30,31 +30,31 @@ function Publications() {
                     <p id='read-more'>CONTINUE READING<span id='more-arrw'>&nbsp; &#8594;</span></p>
                 </div>
                 <div className='publications-item'>
-                    <img src={Insights} className='pub-image' />
-                    <img src={Iimage} className='tiny-image' />
+                    <img src={Insights} className='pub-image' alt='insights' />
+                    <img src={Iimage} className='tiny-image' alt='insights' />
                     <p className='pub-category'>Toptal Insights &#62; Future of Work</p>
                     <p className='pub-theme'>Remote, not re-moat</p><div id='empty'></div>
                     <p className='pub-author'>by <strong>TASO DU VAL</strong></p>
                 </div>
                 <div className='publications-item'>
-                    <img src={Backend} className='pub-image' />
-                    <img src={Bimage} className='tiny-image' />
+                    <img src={Backend} className='pub-image' alt='backend developer' />
+                    <img src={Bimage} className='tiny-image' alt='backend developer' />
                     <p className='pub-category'>Engineering &#62; Back-end</p>
                     <p className='pub-theme'>SSH Logging and Session<br />Management<br />
                     Using AWS SSM</p>
                     <p className='pub-author'>by <strong>VIMAL PALIWAL</strong></p>
                 </div>
                 <div className='publications-item'>
-                    <img src={Design} className='pub-image' />
-                    <img src={Dimage} className='tiny-image' />
+                    <img src={Design} className='pub-image' alt='designer' />
+                    <img src={Dimage} className='tiny-image' alt='designer' />
                     <p className='pub-category'>Design &#62; Design Process</p>
                     <p className='pub-theme'>Building and Scaling a<br />Design System in Figma:<br />
                     A Case Study</p>
                     <p className='pub-author'>by <strong>ABIGAIL BESHKIN</strong></p>
                 </div>
                 <div className='publications-item'>
-                    <img src={Technology} className='pub-image' />
-                    <img src={Timage} className='tiny-image' />
+                    <img src={Technology} className='pub-image' alt='technology' />
+                    <img src={Timage} className='tiny-image' alt='developer' />
                     <p className='pub-category'>Engineering &#62; Technology</p>
                     <p className='pub-theme'>University of Minnesota:<br />
                     Questions About Open<br />Source</p>

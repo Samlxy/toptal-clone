@@ -18,7 +18,7 @@ function Network() {
             </ul>
             <div className='network-grid'>
                 <div className='network-item'>
-                    <img src={Javascript} className='network-image' />
+                    <img src={Javascript} className='network-image' alt='javascript-developer' />
                     <div className='network-name'>Gabriel Courtemanche</div>
                     <div className='network-role'>JavaScript Developer</div><br />
                     <div className='network-text'>Gabriel is a highly efficient and reliable professional who 
@@ -33,7 +33,7 @@ function Network() {
                     <div className='network-view'>View Gabriel</div>
                 </div>
                 <div className='network-item'>
-                    <img src={Java} className='network-image' />
+                    <img src={Java} className='network-image' alt='java-developer' />
                     <div className='network-name'>Justin Michela</div>
                     <div className='network-role'>Java Developer</div><br />
                     <div className='network-text'>Justin is a technical professional with a passion for learning and 15+
@@ -48,7 +48,7 @@ function Network() {
                     <div className='network-view' >View Justin</div>
                 </div>
                 <div className='network-item'>
-                    <img src={Python} className='network-image' />
+                    <img src={Python} className='network-image' alt='python-developer' />
                     <div className='network-name'>Frédérique Mittelstaedt</div>
                     <div className='network-role'>Python Developer</div><br />
                     <div className='network-text'>Frédérique is a software engineer and entrepreneur with an MSc in

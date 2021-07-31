@@ -25,7 +25,7 @@ function Clients() {
                         The quality of talent they supply is extremely high as the developers are able to immediately 
                         onboard and ramp incredibly fast.
                     </p>
-                    <img src={Zac} className='clients-image' />
+                    <img src={Zac} className='clients-image' alt='client' />
                     <div className='clients-detail'>
                         <p className='clients-name' id='name-zac'>Zac Carman, CEO</p>
                         <p className='clients-comp'>ConsumerAffairs</p>
@@ -37,7 +37,7 @@ function Clients() {
                         Their team was incredibly helpful in helping us find the perfect developer for our project. 
                         We're excited to work with Toptal for more projects in the future!
                     </p>
-                    <img src={Ryan} className='clients-image' />
+                    <img src={Ryan} className='clients-image' alt='client' />
                     <div className='clients-detail'>
                         <p className='clients-name'>Ryan Walker, Director of Product</p>
                         <p className='clients-comp'>Rand McNally</p>
@@ -49,7 +49,7 @@ function Clients() {
                         Toptal delivered the talent and expertise needed to launch a brand new fan engagement platform with
                         a high quality of supply.
                     </p>
-                    <img src={Conor} className='clients-image'  />
+                    <img src={Conor} className='clients-image' alt='client'  />
                     <div className='clients-detail'>
                         <p className='clients-name' id='name-conor'>Conor Kenney, Director of Professional Services</p>
                         <p className='clients-comp'>Cleveland Cavaliers</p>

@@ -18,7 +18,7 @@ function Organizations() {
                     <p className='org-name'>BRIDGESTONE</p>
                     <p className='org-description'>Building a cross-platform app to be used worldwide</p>
                     <ul className='play-contain'>
-                        <li className='play-item'><img src={Play} className='play-icon' /></li>
+                        <li className='play-item'><img src={Play} className='play-icon'  alt='play video' /></li>
                         <li className='play-item'><p className='org-video'>Watch the video</p></li>
                     </ul>
                 </div>
@@ -26,7 +26,7 @@ function Organizations() {
                     <p className='org-name'>CAVALIERS</p>
                     <p className='org-description'>Creating world class applications for the game</p>
                     <ul className='play-contain'>
-                        <li className='play-item'><img src={Play} className='play-icon' /></li>
+                        <li className='play-item'><img src={Play} className='play-icon'  alt='play video' /></li>
                         <li className='play-item'><p className='org-video'>Watch the video</p></li>
                     </ul>
                 </div>
@@ -34,7 +34,7 @@ function Organizations() {
                     <p className='org-name'>CSR</p>
                     <p className='org-description'>Leading a digital transformation accross the world</p>
                     <ul className='play-contain'>
-                        <li className='play-item'><img src={Play} className='play-icon' /></li>
+                        <li className='play-item'><img src={Play} className='play-icon'  alt='play video' /></li>
                         <li className='play-item'><p className='org-video'>Watch the video</p></li>
                     </ul>
                 </div>
@@ -42,7 +42,7 @@ function Organizations() {
                     <p className='org-name'>USC-UNIVERSITY</p>
                     <p className='org-description'>Developing a virtual assistant to improve mental wellness</p>
                     <ul className='play-contain'>
-                        <li className='play-item'><img src={Play} className='play-icon' /></li>
+                        <li className='play-item'><img src={Play} className='play-icon'  alt='play video' /></li>
                         <li className='play-item'><p className='org-video'>Watch the video</p></li>
                     </ul>
                 </div>
@@ -50,7 +50,7 @@ function Organizations() {
                     <p className='org-name'>ADCRUSH</p>
                     <p className='org-description'>Scaling revenue with marketing automation</p>
                     <ul className='play-contain'>
-                        <li className='play-item'><img src={Play} className='play-icon' /></li>
+                        <li className='play-item'><img src={Play} className='play-icon' alt='play video' /></li>
                         <li className='play-item'><p className='org-video'>Watch the video</p></li>
                     </ul>
                 </div>
@@ -100,7 +100,7 @@ function Organizations() {
                    <li><p className='cnbc-text'>We're known as a high-skilled marketplace, and we see an acute pain<br />point within that area.</p></li>
                     <li><p className='cnbc-name'>CNBC</p></li>
                     <li><div className='cnbc-align'>
-                            <p className='play-item'><img src={Play} className='play-icon' /></p>
+                            <p className='play-item'><img src={Play} className='play-icon' alt='play video'/></p>
                             <p className='play-item'><p className='org-video'>Watch the video</p></p>
                         </div>
                     </li>

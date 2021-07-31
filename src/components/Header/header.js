@@ -22,18 +22,18 @@ function Header() {
                     </p>
                 <button className='talent-button'>Hire Top Talent</button>
                 <div className='location-div'>
-                    <img src={Location} className='location' />
+                    <img src={Location} className='location' alt='brands' />
                 </div>
                 </div>
            <div className='header-next'>
                <p className='brand-startup'>TRUSTED BY LEADING<br></br>BRANDS AND STARTUPS</p>
                <ul className='brand-logo'>
-                   <li className='logo'><img src={Airbnb} className='airbnb' /></li>
-                   <li className='logo'><img src={Bridgestone} className='bridgestone' /></li>
-                   <li className='logo'><img src={Duolingo} className='duolingo' /></li>
-                   <li className='logo'><img src={Usc} className='usc' /></li>
-                   <li className='logo'><img src={Shopify} className='shopify' /></li>
-                   <li className='logo'><img src={Cavaliers} className='cavaliers' /></li>
+                   <li className='logo'><img src={Airbnb} className='airbnb' alt='brands' /></li>
+                   <li className='logo'><img src={Bridgestone} className='bridgestone' alt='brands' /></li>
+                   <li className='logo'><img src={Duolingo} className='duolingo' alt='brands' /></li>
+                   <li className='logo'><img src={Usc} className='usc' alt='brands' /></li>
+                   <li className='logo'><img src={Shopify} className='shopify' alt='brands' /></li>
+                   <li className='logo'><img src={Cavaliers} className='cavaliers' alt='brands' /></li>
                 </ul>    
             </div>   
         </header>

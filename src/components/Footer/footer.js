@@ -42,16 +42,16 @@ function Footer() {
                     <p>FAQ</p>
                 </div>
                 <div className='footer-item'>
-                    <a href="#" class="fa fa-linkedin"></a>
-                    <a href="#" class="fa fa-twitter"></a>
-                    <a href="#" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-instagram"></a>
+                    <button className="fa fa-linkedin"></button>
+                    <button className="fa fa-twitter"></button>
+                    <button className="fa fa-facebook"></button>
+                    <button className="fa fa-instagram"></button>
                 </div>
                 <div className='footer-item'>
                 </div>
             </div>
             <hr id='footer-line' />
-            <img src={Toptal} alt='toptal' className='toptal-logo' id='toptal-logo' />
+            <img src={Toptal} className='toptal-logo' id='toptal-logo' alt='toptal' />
             <div className='line'></div>
             <p className='world-top'>The World's Top Talent, On Demand<sup id='footer-sup'>&reg;</sup></p>
             <p className='copyright'>Copyright 2010 - 2021 Toptal, LLC</p>

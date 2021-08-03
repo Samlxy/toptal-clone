@@ -23,37 +23,37 @@ import './header.css';
 
 
 function Header() {
-    const imageOne = <img src={Image01} className='image-style' />
+    const imageOne = <img src={Image01} className='image-style' alt='srum-master'/>
     const detailsOne = <div className='details'><span className='sp-nm'>Ruth Madrigal</span><br />
                         <span className='sp-ro'>Scrum Master</span><br />
                         <span className='sp-prev'>Previously at <strong>IBM</strong></span>
                       </div>
 
-    const imageTwo = <img src={Image02} className='image-style' />
+    const imageTwo = <img src={Image02} className='image-style' alt='c-developer'/>
     const detailsTwo = <div className='details'><span className='sp-nm'>Vladimir Mitrovic</span><br />
                         <span className='sp-ro'>C# Developer</span><br />
                         <span className='sp-prev'>Previously at <strong>Apple</strong></span>
                     </div>
 
-    const imageThree = <img src={Image03} className='image-style' />
+    const imageThree = <img src={Image03} className='image-style' alt='ma-expert' />
     const detailsThree = <div className='details'><span className='sp-nm'>Saim Korlu</span><br />
                         <span className='sp-ro'>M&A Expert</span><br />
                         <span className='sp-prev'>Previously at <strong>J.P Morgan & Co.</strong></span>
                     </div>
 
-    const imageFour = <img src={Image04} className='image-style' />
+    const imageFour = <img src={Image04} className='image-style' alt='finance-expert'/>
     const detailsFour = <div className='details'><span className='sp-nm'>Ellen Su</span><br />
                         <span className='sp-ro'>Finance Expert</span><br />
                         <span className='sp-prev'>Previously at <strong>Lehman Brothers</strong></span>
                     </div>
 
-    const imageFive = <img src={Image05} className='image-style' />
+    const imageFive = <img src={Image05} className='image-style' alt='js-developer'/>
     const detailsFive = <div className='details'><span className='sp-nm'>Vladimir Peric</span><br />
                         <span className='sp-ro'>JavaScript Developer</span><br />
                         <span className='sp-prev'>Previously at <strong>Ubisoft</strong></span>
                     </div>
 
-    const imageSix = <img src={Image06} className='image-style' />
+    const imageSix = <img src={Image06} className='image-style' alt='python-developer'/>
     const detailsSix = <div className='details'><span className='sp-nm'>Matthew Warkentin</span><br />
                         <span className='sp-ro'>Python Developer</span><br />
                         <span className='sp-prev'>Previously at <strong>Cornell</strong></span>

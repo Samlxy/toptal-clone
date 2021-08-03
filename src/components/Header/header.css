@@ -54,20 +54,68 @@ sup {
     cursor: pointer;
 }
 
+.image-style {
+    width: 500px;
+    height: 400px;
+    margin-left: 750px;
+    margin-top: 80px;
+}
+
 .location-div {
     background: linear-gradient(40deg, transparent 20px, #f6f8fc 0);
     position: absolute;
     top: 135px;
     right: 150px;
-    width: 210px;
-    height: 190px;
+    width: 240px;
+    height: 215px;
 }
 
 .location {
     text-align: center;
-    width: 170px;
+    width: 180px;
     height: 80px;
-    padding: 20px 15px;
+    padding: 20px 15px 0px;
+}
+
+.location-circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid blue;
+    background: transparent;
+    position: absolute;
+    top: 40px;
+    left: 70px;
+}
+
+.location-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: blue;
+    position: absolute;
+    left: 3px;
+    top: 3px;
+}
+
+.details {
+    font-weight: 500;
+    padding-left: 20px;
+}
+
+.sp-nm {
+    font-size: 16px;
+    color: #204ecf;
+}
+
+.sp-ro {
+    font-size: 14px;
+    color: #d4d7e4;
+}
+
+.sp-prev {
+    font-size: 14px;
+    color: grey;
 }
 
 .header-next {
@@ -97,7 +145,7 @@ ul.brand-logo {
     justify-content: center;
     align-items: center;
 }
-    
+
 li.logo {
     display: inline;
     margin: 40px;
@@ -137,3 +185,83 @@ li.logo {
     height: 25px;
     padding-bottom: 19px;
 }
+
+/* Carousel */
+
+.slide-show {
+    margin: 15px 120px 0px 80px;
+}
+
+ul.carousel-container {
+    list-style-type: none;
+    text-align: center;
+}
+
+li.carousel {
+    display: inline;
+    margin: 6px;
+}
+
+.carousel-item {
+    width: 178px;
+    height: 150px;
+    background-color: lavender;
+    clip-path: polygon(0 0, 100% 0%, 100% 20%, 100% 80%, 100% 100%, 20% 100%, 0 82%, 0% 20%);
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.carousel-item:hover {
+    opacity: 1;
+}
+
+.carousel-div {
+    display: inline-block;
+    width: 177px;
+    height: 197px;
+}
+
+.carousel-div:hover {
+    border: 2px solid #204ecf;
+    opacity: 1;
+}
+
+.span-name, .span-role {
+    color: #204ecf;
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 15px;
+}
+
+.span-role {
+    color: #d4d7e4;
+    margin-top: -20px;
+}
+
+.slide {
+    border: solid blue;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    position: absolute;
+    left: 200px;
+    top: 42em;
+    cursor: pointer;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    position: absolute;
+    right: 200px;
+    top: 42em;
+    cursor: pointer;
+}  

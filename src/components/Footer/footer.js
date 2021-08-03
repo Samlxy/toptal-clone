@@ -50,10 +50,10 @@ function Footer() {
             </div>
             <hr id='footer-line' />
             <img src={Toptal} className='toptal-logo' id='toptal-logo' alt='toptal' />
-            <div className='line'></div>
+            <p className='line'></p>
             <p className='world-top'>The World's Top Talent, On Demand<sup id='footer-sup'>&reg;</sup></p>
             <p className='copyright'>Copyright 2010 - 2021 Toptal, LLC</p>
-            <div className='line' id='line-two'></div> 
+            <p className='line' id='line-two'></p> 
             <p className='privacy'>Privacy Policy &nbsp;&nbsp; Website Terms &nbsp;&nbsp; Accessibility</p>
             
         </div>

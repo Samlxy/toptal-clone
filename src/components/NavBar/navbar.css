@@ -61,11 +61,6 @@
     display: block;
 }
   
-a {
-    text-decoration: none;
-    color: #262d3d;
-}
-
 .arrow {
     border: 1px solid #262d3d;
     border-width: 0 1px 1px 0;
@@ -99,6 +94,7 @@ li.nav-items {
     font-weight: 400;
     font-size: 13px;
     font-style: normal;
+    cursor: pointer;
 }
 
 ul.right-nav {
@@ -115,7 +111,8 @@ li.nav-item {
     margin: 7px;
     font-weight: 400;
     font-size: 13px;
-    font-style: normal
+    font-style: normal;
+    cursor: pointer;
 }
 
 .hire-talent {

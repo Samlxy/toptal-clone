@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import { slide as Menu } from "react-burger-menu";
-import { HashLink as Link } from 'react-router-hash-link';
-// import { animateScroll as scroll } from 'react-scroll';
 import Toptal from '../../images/toptal-logo.png';
 import './navbar.css';
 
@@ -20,13 +18,12 @@ function Navbar() {
 
     return (
         <div className={navbar ? 'navbar active' : 'navbar'}>
-            <Menu>
-            </Menu>
+            <Menu></Menu>
             <img src={Toptal} className='toptal-logo' alt='toptal'/>
             <ul className='left-nav'>
                 <li className='nav-items'>Top 3%</li>
                 <li className='nav-items'>Why</li>
-                <li className='nav-items'><Link to='#clients' scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'start' })} activeClassName='focus'>Clients</Link></li>
+                <li className='nav-items'>Clients</li>
                 <li className='nav-items'>  
                 
                 <div className="dropdown">

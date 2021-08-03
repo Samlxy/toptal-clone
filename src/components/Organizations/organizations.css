@@ -133,21 +133,12 @@
     font-weight: bold; 
 }
 
-.read-arrow {
-    width: 26px;
-    height: 2px;
-    background: #ffffff;
-    border: 1px;
-    position: relative;
-    top: 31px;
-    left: 5px;
-}
-
-.greater-arrow {
+.new-arrow {
+    color: white;
+    font-size: 24px;
     position: relative;
     top: 3px;
-    left: 21px;
-    font-size: 25px;
+    left: 15px;
 }
 
 .mid-div {
@@ -208,3 +199,22 @@ ul.cnbc-texts {
     font-weight: bold;
     margin-bottom: -20px;
 }
+
+/*
+.read-arrow {
+    width: 26px;
+    height: 2px;
+    background: #ffffff;
+    border: 1px;
+    position: relative;
+    top: 31px;
+    left: 5px;
+}
+
+.greater-arrow {
+    position: relative;
+    top: 3px;
+    left: 21px;
+    font-size: 25px;
+}
+*/

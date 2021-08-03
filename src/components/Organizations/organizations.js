@@ -68,7 +68,7 @@ function Organizations() {
                     <p className='org-description'>The Opportunity Loop: How to Attract and Retain Top Talent</p>
                     <ul className='play-contain'>
                         <li className='play-item'><p className='read-more'>Read more</p></li>
-                        <li className='play-item'><hr className='read-arrow' /><span className='greater-arrow'>&#62;</span></li>
+                        <li className='play-item'><span className='new-arrow'>&#10230;</span></li>
                     </ul>
                 </div>
                 <div id='collab-item03' className='organizations-item'>
@@ -76,7 +76,7 @@ function Organizations() {
                     <p className='org-description'>Industry Perspective: Salesforce On Team Alignment And Agile Talent</p>
                     <ul className='play-contain'>
                         <li className='play-item'><p className='read-more'>Read more</p></li>
-                        <li className='play-item'><hr className='read-arrow' /><span className='greater-arrow'>&#62;</span></li>
+                        <li className='play-item'><span className='new-arrow'>&#10230;</span></li>
                     </ul>
                 </div>
                 <div id='collab-item04' className='organizations-item'>
@@ -84,7 +84,7 @@ function Organizations() {
                     <p className='org-description'>Call to Action: The On-Demand World Class Business Model</p>
                     <ul className='play-contain'>
                         <li className='play-item'><p className='read-more'>Read more</p></li>
-                        <li className='play-item'><hr className='read-arrow' /><span className='greater-arrow'>&#62;</span></li>
+                        <li className='play-item'><span className='new-arrow'>&#10230;</span></li>
                     </ul>
                 </div>
             </div>
